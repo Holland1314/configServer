@@ -1,10 +1,11 @@
 package com.slc.config;
 
+
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
-@SpringBootApplication
+@SpringCloudApplication
 @EnableConfigServer
 public class ConfigApplication {
 
